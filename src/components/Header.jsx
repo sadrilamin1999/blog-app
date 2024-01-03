@@ -7,6 +7,7 @@ export default class Header extends Component {
   };
   handleChange = (e) => {
     // todo update
+    this.setState({ searchTerm: e.target.value });
   };
   handleKeyPress = (e) => {};
   render() {
