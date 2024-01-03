@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Header from "./components/Header";
 
 export default class App extends Component {
   render() {
@@ -6,7 +7,7 @@ export default class App extends Component {
       <div className="container">
         <div className="row">
           <div className="col-sm-6 offset-md-3">
-            <h2>Block Buster Headline</h2>
+            <Header />
           </div>
         </div>
       </div>
